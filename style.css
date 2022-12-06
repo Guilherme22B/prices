@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif
+}
+
+:root{
+    --Cyan: #2ab2af;
+    --BrightYellow: #c0df34;
+    --LightGray: #e5eff5;
+    --GrayishBlue: #98a6bd;
+    --bright-cyan: #4ABFBD;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: var(--LightGray);
+    padding: 3.2rem;
+}
+main{
+    box-shadow: 0rem 0.5rem 0.6rem 0.1rem rgba(0, 0, 0, 0.226);
+    min-width: 55.0rem;
+    max-width: 63.5rem;
+    margin: auto;
+}
+.direita{
+    background-color: var(--bright-cyan);
+    padding: 2.4rem;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+}
+.esquerda{
+    background-color: var(--Cyan);
+    padding: 2.4rem;
+}
+.superior{
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    padding: 2.4rem;
+    background-color: white;
+}
+.superior > section > p{
+    font-size: 1.8rem;
+    color: var(--BrightYellow);
+}
+.superior > section > h1{
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-size: 2,0rem;
+    color: var(--Cyan);
+}
+.superior p{
+    line-height: 2.0rem;
+    margin-top: 1.6rem;
+}
+.superior .p2{
+    font-size: 1.4rem;
+    color: var(--GrayishBlue);
+}
+.inferior h2{
+    color: white;
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+}
+.inferior strong{
+    font-size: 3.0rem;
+}
+.inferior .extra > p{
+    color: rgba(255, 255, 255, 0.507);
+}
+.inferior .extra > p{
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+}
+.inferior button{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    background-color: var(--BrightYellow);
+    box-shadow: 0rem 0.5rem 0.6rem 0.1rem rgba(0, 0, 0, 0.226);
+}
+.inferior button{
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    margin-top: 2.4rem;
+}
+.inferior .direita h2{
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    color: white;
+}
+.inferior .direita p{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.753);
+}
+.inferior .direita{
+    line-height: 2.0rem;
+}
